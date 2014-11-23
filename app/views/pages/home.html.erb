@@ -1,8 +1,14 @@
 <div class="jumbotron center">
 	<h1>Welcome Home</h1>
 
+	<% if user_signed_in? %>
+
+		This is your user board!
+
+	<% else %>
 	<p>
-		<%= link_to "Sign up", "#", class: "btn btn-primary btn-lg" %>
+		<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
 	</p>
 
+	<% end %>
 </div>
