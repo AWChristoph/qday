@@ -8,6 +8,8 @@
         <%= devise_error_messages! %>
         <%= f.hidden_field :reset_password_token %>
 
+    <div class="panel-heading">
+        
         <div class="form-group">
           <%= f.label :password, "New password" %>
           <%= f.password_field :password, autofocus: true, autocomplete: "off", class:"form-control" %>
@@ -22,5 +24,9 @@
           <%= f.submit "Change my password", class:"btn btn-primary" %>
         </div>
       <% end %>
+    </div>
 
+    <div class="panel-footer">
       <%= render "devise/shared/links" %>
+    </div>
+</div>
