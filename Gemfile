@@ -13,6 +13,8 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.4.1'
 gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'aws-sdk', '~> 1.59.1'
+gem 'nokogiri', '~> 1.6.5'
 
 group :development, :test do
      gem 'sqlite3'
