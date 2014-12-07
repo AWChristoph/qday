@@ -1,0 +1,2 @@
+module RegistrationsEditHelper
+end
