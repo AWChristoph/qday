@@ -8,7 +8,8 @@ $navbar-inverse-link-color:	#34495e;
 $jumbotron-bg:   			white;
 $btn-primary-bg:   			#2c3e50;
 
-@import 'bootstrap';
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 .center {
      text-align: center;
